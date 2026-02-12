@@ -1,0 +1,95 @@
+phrases:
+  - "I am writing to express my interest"
+  - "I am excited to apply"
+  - "I would be a great fit"
+  - "I believe I would be an excellent"
+  - "I am confident that my"
+  - "I look forward to the opportunity"
+  - "Please do not hesitate to contact"
+  - "Thank you for considering my application"
+  - "I am eager to bring my"
+  - "I am passionate about"
+  - "in today's rapidly evolving"
+  - "in this dynamic landscape"
+  - "at the forefront of"
+
+words:
+  - leverage
+  - utilize
+  - spearhead
+  - synergy
+  - paradigm
+  - holistic
+  - robust
+  - innovative
+  - cutting-edge
+  - passionate
+  - drive
+  - champion
+  - empower
+  - foster
+  - cultivate
+  - navigate
+  - streamline
+  - optimize
+  - transformative
+  - groundbreaking
+  - delve
+  - tapestry
+  - moreover
+  - furthermore
+  - additionally
+  - consequently
+  - henceforth
+  - endeavor
+  - multifaceted
+  - comprehensive
+  - meticulous
+
+context_dependent:
+  robust:
+    - regression
+    - estimator
+    - standard error
+    - variance
+    - statistical
+    - inference
+    - model
+    - heteroscedastic
+  optimize:
+    - optimization
+    - gradient
+    - objective function
+    - convergence
+    - loss function
+    - algorithm
+  comprehensive:
+    - dataset
+    - survey
+    - review
+    - meta-analysis
+    - analysis
+  innovative:
+    - patent
+    - novel method
+    - first to
+    - new approach
+  drive:
+    - disk
+    - driver
+    - hard drive
+    - flash drive
+
+structural_rules:
+  max_consecutive_parallel_bullets: 3
+  max_tricolon_lists: 1
+  max_connector_words_per_document: 2
+  connector_words:
+    - Moreover
+    - Furthermore
+    - Additionally
+    - Consequently
+    - Henceforth
+  paragraph_balance_cv_threshold: 0.15
+  sentence_uniformity_cv_threshold: 0.20
+  min_sentences_for_uniformity: 5

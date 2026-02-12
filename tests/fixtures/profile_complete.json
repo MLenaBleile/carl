@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "last_updated": "2026-02-01T00:00:00Z",
+    "version": "1.0.0",
+    "profile_completeness": {
+      "has_writing_samples": true,
+      "has_accomplishments": true,
+      "has_publications": true,
+      "sparse_fields": []
+    }
+  },
+  "identity": {
+    "name": "Dr. Elena Vasquez",
+    "email": "elena.vasquez@email.com",
+    "phone": "+1-555-867-5309",
+    "location": {
+      "city": "Boston",
+      "state": "MA",
+      "country": "US",
+      "willing_to_relocate": true,
+      "relocation_preferences": ["New York", "San Francisco", "Remote"],
+      "remote_preference": "flexible"
+    },
+    "visa_status": {
+      "current_authorization": "US Citizen",
+      "requires_sponsorship": false,
+      "relevant_documentation": []
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/elenavasquez",
+      "github": "https://github.com/elenavasquez",
+      "google_scholar": "https://scholar.google.com/citations?user=ABCDEF",
+      "personal_site": "https://elenavasquez.com",
+      "other": []
+    }
+  },
+  "summary": {
+    "elevator_pitch": "Biostatistician with 8 years of experience in clinical trial design, causal inference, and machine learning applications in healthcare. Track record of developing novel statistical methods that have been adopted by pharmaceutical teams for Phase II-III trials.",
+    "keywords": ["biostatistics", "causal inference", "clinical trials", "machine learning", "survival analysis", "Bayesian methods"],
+    "target_roles": [
+      {
+        "title_patterns": ["Biostatistician", "Senior Biostatistician", "Principal Statistician"],
+        "industry": "pharmaceutical",
+        "priority": 1,
+        "search_queries": ["senior biostatistician clinical trials", "principal statistician pharma"]
+      },
+      {
+        "title_patterns": ["Data Scientist", "Senior Data Scientist", "ML Scientist"],
+        "industry": "healthcare",
+        "priority": 2,
+        "search_queries": ["data scientist healthcare", "ML scientist biotech"]
+      }
+    ]
+  },
+  "education": [
+    {
+      "id": "edu_001",
+      "degree": "PhD",
+      "field": "Biostatistics",
+      "institution": "Harvard T.H. Chan School of Public Health",
+      "year_completed": "2018",
+      "honors": "Distinction",
+      "thesis_title": "Adaptive Enrichment Designs for Subgroup-Specific Treatment Effects in Oncology Trials",
+      "relevant_coursework": ["Advanced Bayesian Methods", "Survival Analysis", "Causal Inference", "High-Dimensional Statistics"],
+      "notes": "Advisor: Prof. Marcus Chen"
+    },
+    {
+      "id": "edu_002",
+      "degree": "MS",
+      "field": "Statistics",
+      "institution": "University of Michigan",
+      "year_completed": "2014",
+      "honors": "",
+      "thesis_title": "",
+      "relevant_coursework": ["Linear Models", "Probability Theory", "Statistical Computing"],
+      "notes": ""
+    },
+    {
+      "id": "edu_003",
+      "degree": "BS",
+      "field": "Mathematics",
+      "institution": "UCLA",
+      "year_completed": "2012",
+      "honors": "Magna Cum Laude",
+      "thesis_title": "",
+      "relevant_coursework": [],
+      "notes": ""
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp_001",
+      "title": "Senior Biostatistician",
+      "organization": "Sanofi",
+      "start_date": "2021-03",
+      "end_date": "present",
+      "is_current": true,
+      "contract": false,
+      "responsibilities": [
+        "Lead statistical design for 3 concurrent Phase III oncology trials",
+        "Mentor team of 4 junior biostatisticians on adaptive trial methodology",
+        "Review and approve statistical analysis plans across therapeutic areas"
+      ],
+      "accomplishments": [
+        "Developed adaptive enrichment design that reduced required sample size by 22% for the BEACON-3 trial",
+        "Built internal R package for Bayesian subgroup analysis used by 15 statisticians across 3 departments",
+        "Implemented group sequential monitoring framework that saved $2.3M by enabling early efficacy stopping",
+        "Co-authored company guidance on estimand framework adoption aligned with ICH E9(R1)"
+      ],
+      "tools_used": ["R", "SAS", "Stan", "EAST", "FACTS"],
+      "keywords": ["adaptive design", "oncology", "Bayesian", "subgroup analysis", "estimand"]
+    },
+    {
+      "id": "exp_002",
+      "title": "Biostatistician II",
+      "organization": "Dana-Farber Cancer Institute",
+      "start_date": "2018-07",
+      "end_date": "2021-02",
+      "is_current": false,
+      "contract": false,
+      "responsibilities": [
+        "Designed and analyzed Phase I-II dose-finding studies in immuno-oncology",
+        "Collaborated with clinicians to develop patient-reported outcome instruments",
+        "Conducted sample size calculations and power analyses for grant proposals"
+      ],
+      "accomplishments": [
+        "Published novel Bayesian dose-optimization method in Statistics in Medicine (2020)",
+        "Contributed to 5 successful NIH R01 grant applications totaling $8.7M in funding",
+        "Created automated reporting pipeline in R that reduced analysis turnaround from 2 weeks to 3 days",
+        "Developed competing risks survival model for treatment discontinuation prediction with AUC of 0.84"
+      ],
+      "tools_used": ["R", "SAS", "Python", "BUGS", "REDCap"],
+      "keywords": ["dose-finding", "immuno-oncology", "competing risks", "patient-reported outcomes"]
+    },
+    {
+      "id": "exp_003",
+      "title": "Research Assistant",
+      "organization": "Harvard T.H. Chan School of Public Health",
+      "start_date": "2015-09",
+      "end_date": "2018-06",
+      "is_current": false,
+      "contract": false,
+      "responsibilities": [
+        "Conducted simulation studies for adaptive enrichment trial designs",
+        "Assisted in teaching graduate biostatistics courses"
+      ],
+      "accomplishments": [
+        "Developed R simulation framework for evaluating Type I error control in adaptive enrichment designs",
+        "Won department award for teaching excellence in Biostatistics 201",
+        "Presented thesis work at Joint Statistical Meetings 2017"
+      ],
+      "tools_used": ["R", "LaTeX", "Git"],
+      "keywords": ["adaptive enrichment", "simulation", "Type I error", "teaching"]
+    },
+    {
+      "id": "exp_004",
+      "title": "Statistical Consultant",
+      "organization": "Vertex Pharmaceuticals",
+      "start_date": "2019-06",
+      "end_date": "2020-08",
+      "is_current": false,
+      "contract": true,
+      "responsibilities": [
+        "Provided statistical consulting for cystic fibrosis trial program"
+      ],
+      "accomplishments": [
+        "Designed group sequential boundary for pivotal CF trial that maintained 90% power with 18% fewer patients",
+        "Delivered 12 statistical consultation reports for cross-functional teams"
+      ],
+      "tools_used": ["R", "SAS", "EAST"],
+      "keywords": ["group sequential", "cystic fibrosis", "consulting"]
+    }
+  ],
+  "publications": [
+    {
+      "id": "pub_001",
+      "title": "Adaptive Enrichment Designs with Biomarker Subgroups: Balancing Type I Error and Power",
+      "authors": ["Vasquez E", "Chen M", "Liu J"],
+      "journal": "Biometrics",
+      "year": "2019",
+      "doi": "10.1111/biom.12345",
+      "type": "peer-reviewed",
+      "impact_factor": 1.9,
+      "citation_count": 47,
+      "summary": "Proposed a family of adaptive enrichment designs that control familywise Type I error while maintaining power for subgroup-specific effects."
+    },
+    {
+      "id": "pub_002",
+      "title": "Bayesian Dose-Optimization in Immuno-Oncology: A Practical Framework",
+      "authors": ["Vasquez E", "Park S", "Williams R"],
+      "journal": "Statistics in Medicine",
+      "year": "2020",
+      "doi": "10.1002/sim.56789",
+      "type": "peer-reviewed",
+      "impact_factor": 2.3,
+      "citation_count": 31,
+      "summary": "Developed a Bayesian dose-optimization framework incorporating both efficacy and toxicity endpoints for immuno-oncology trials."
+    },
+    {
+      "id": "pub_003",
+      "title": "Competing Risks Models for Treatment Discontinuation in Oncology",
+      "authors": ["Vasquez E", "Gupta A"],
+      "journal": "Journal of Clinical Oncology",
+      "year": "2021",
+      "doi": "10.1200/JCO.2021.12345",
+      "type": "peer-reviewed",
+      "impact_factor": 45.3,
+      "citation_count": 18,
+      "summary": "Applied Fine-Gray competing risks models to predict treatment discontinuation patterns."
+    },
+    {
+      "id": "pub_004",
+      "title": "Estimand Framework in Practice: Lessons from Oncology Trials",
+      "authors": ["Vasquez E", "Thompson K", "Chen M"],
+      "journal": "Pharmaceutical Statistics",
+      "year": "2023",
+      "doi": "10.1002/pst.98765",
+      "type": "peer-reviewed",
+      "impact_factor": 1.5,
+      "citation_count": 8,
+      "summary": "Practical guide to implementing the ICH E9(R1) estimand framework in oncology trial protocols."
+    }
+  ],
+  "book": {
+    "title": "",
+    "publisher": "",
+    "expected_publication": "",
+    "status": "",
+    "summary": "",
+    "key_contributions": []
+  },
+  "skills": {
+    "programming": {
+      "expert": ["R", "SAS"],
+      "proficient": ["Python", "Stan"],
+      "familiar": ["Julia", "SQL", "Bash"]
+    },
+    "statistical_methods": [
+      "Bayesian methods",
+      "Survival analysis",
+      "Causal inference",
+      "Adaptive trial design",
+      "Group sequential methods",
+      "Competing risks",
+      "Mixed effects models",
+      "High-dimensional regression"
+    ],
+    "domain_expertise": [
+      "Clinical trial design",
+      "Oncology",
+      "Immuno-oncology",
+      "Regulatory submissions",
+      "ICH E9(R1) estimand framework"
+    ],
+    "tools_and_platforms": [
+      "EAST",
+      "FACTS",
+      "REDCap",
+      "Git",
+      "LaTeX",
+      "BUGS",
+      "Docker"
+    ],
+    "soft_skills": [
+      "Cross-functional collaboration",
+      "Mentoring",
+      "Technical writing",
+      "Presentation",
+      "Statistical consulting"
+    ]
+  },
+  "presentations": [
+    {
+      "id": "pres_001",
+      "title": "Adaptive Enrichment Designs for Precision Oncology",
+      "venue": "Joint Statistical Meetings 2017",
+      "date": "2017-08-01",
+      "type": "talk"
+    },
+    {
+      "id": "pres_002",
+      "title": "Bayesian Dose-Optimization: From Theory to Practice",
+      "venue": "ISCB Annual Conference 2020",
+      "date": "2020-09-15",
+      "type": "invited"
+    },
+    {
+      "id": "pres_003",
+      "title": "Estimand Framework Workshop",
+      "venue": "Sanofi Internal Conference 2023",
+      "date": "2023-05-20",
+      "type": "workshop"
+    }
+  ],
+  "certifications": [
+    "SAS Certified Clinical Trials Programmer"
+  ],
+  "other": {
+    "martial_arts": "",
+    "music_background": "Classical violin, 12 years",
+    "languages": ["English (native)", "Spanish (conversational)"],
+    "interests": ["Hiking", "Statistical education outreach"]
+  },
+  "application_preferences": {
+    "salary_range": {"min": 160000, "max": 220000, "currency": "USD"},
+    "deal_breakers": ["No remote option", "Less than 15 days PTO"],
+    "strong_preferences": ["Oncology focus", "Bayesian methods team", "Mentorship opportunities"],
+    "companies_to_avoid": ["ToxiCorp"],
+    "companies_of_interest": ["Genentech", "Moderna", "Adaptive Biotechnologies"]
+  },
+  "application_question_answers": {
+    "sponsorship_required": false,
+    "willing_to_relocate": true,
+    "salary_expectation": "$160,000 - $220,000",
+    "years_of_experience": "8",
+    "highest_education": "PhD in Biostatistics",
+    "custom_answers": {
+      "why_biostatistics": "I was drawn to biostatistics because it sits at the intersection of rigorous mathematical theory and direct patient impact. Designing clinical trials means the statistical methods I develop directly influence treatment decisions.",
+      "management_experience": "I currently mentor 4 junior biostatisticians at Sanofi, guiding their technical development and reviewing their statistical analysis plans. While not a formal management role, I have direct responsibility for their professional growth and work quality."
+    }
+  }
+}

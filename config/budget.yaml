@@ -1,0 +1,18 @@
+budget:
+  daily_limit_usd: 20.00
+  per_application_limit_usd: 5.00
+  warning_threshold: 0.80
+  hard_stop: true
+
+pricing:
+  opus:
+    input_per_mtok: 15.00
+    output_per_mtok: 75.00
+  sonnet:
+    input_per_mtok: 3.00
+    output_per_mtok: 15.00
+
+estimates:
+  with_cover_letter: 1.50
+  without_cover_letter: 0.75
+  app_questions: 0.02

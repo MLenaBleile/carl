@@ -1,0 +1,41 @@
+scheduling:
+  board_scrape:
+    interval_hours: 6
+    jitter_minutes: 30
+  market_research:
+    interval_hours: 24
+    preferred_time: "09:00"
+  max_concurrent_generations: 3
+  max_applications_per_day: 10
+
+generation:
+  max_programmatic_iterations: 4
+  max_llm_verify_rejections: 2
+  resume_format: "markdown"
+  cover_letter_max_words: 400
+  source_mapper_resume_threshold: 0.30
+  source_mapper_cover_letter_threshold: 0.25
+
+model_tiers:
+  scout: "claude-sonnet-4-5-20250929"
+  match_default: "claude-sonnet-4-5-20250929"
+  match_marginal: "claude-opus-4-6"
+  resume: "claude-opus-4-6"
+  cover_letter: "claude-opus-4-6"
+  app_questions: "claude-sonnet-4-5-20250929"
+  verify: "claude-opus-4-6"
+
+dashboard:
+  host: "127.0.0.1"
+  port: 8080
+
+logging:
+  level: "INFO"
+  save_all_iterations: true
+  log_token_usage: true
+
+cleanup:
+  checkpoint_retention: "until_queued"
+  log_retention_days: 30
+  queue_retention_days: 90
+  run_cleanup_on_startup: true

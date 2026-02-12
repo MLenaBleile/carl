@@ -1,0 +1,47 @@
+/* Cover Letter CSS - Professional, readable styling */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.5;
+    color: #000;
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 1in;
+}
+
+h1 {
+    font-size: 14pt;
+    font-weight: bold;
+    margin: 0 0 12pt 0;
+}
+
+p {
+    margin: 0 0 8pt 0;
+    text-align: left;
+}
+
+.date {
+    margin-bottom: 16pt;
+}
+
+.closing {
+    margin-top: 24pt;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+@media print {
+    body {
+        margin: 0;
+        padding: 1in;
+    }
+}
+
+@page {
+    size: letter;
+    margin: 1in;
+}

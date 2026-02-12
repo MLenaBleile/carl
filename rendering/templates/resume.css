@@ -1,0 +1,79 @@
+/* Resume CSS - Clean, professional, ATS-friendly styling */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.4;
+    color: #000;
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 0.5in 0.75in;
+}
+
+h1 {
+    font-size: 18pt;
+    font-weight: bold;
+    margin: 0 0 4pt 0;
+    border-bottom: 1pt solid #000;
+    padding-bottom: 4pt;
+}
+
+h2 {
+    font-size: 13pt;
+    font-weight: bold;
+    margin: 12pt 0 4pt 0;
+    border-bottom: 0.5pt solid #666;
+    padding-bottom: 2pt;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 11pt;
+    font-weight: bold;
+    margin: 8pt 0 2pt 0;
+}
+
+p {
+    margin: 2pt 0;
+}
+
+ul {
+    margin: 2pt 0;
+    padding-left: 18pt;
+}
+
+li {
+    margin: 1pt 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Structural elements */
+.header-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Print settings */
+@media print {
+    body {
+        margin: 0;
+        padding: 0.5in;
+    }
+}
+
+@page {
+    size: letter;
+    margin: 0.5in 0.75in;
+}

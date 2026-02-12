@@ -1,0 +1,12 @@
+anthropic_api:
+  concurrent_max: 5
+  requests_per_minute: 30
+
+serpapi:
+  requests_per_minute: 10
+
+greenhouse_api:
+  requests_per_minute: 20
+
+lever_api:
+  requests_per_minute: 20

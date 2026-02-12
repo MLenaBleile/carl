@@ -1,0 +1,13 @@
+anthropic
+fastapi
+uvicorn
+jinja2
+aiohttp
+pyyaml
+spacy
+sentence-transformers
+weasyprint
+markdown
+numpy
+pytest
+pytest-asyncio

@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "last_updated": "2026-02-01T00:00:00Z",
+    "version": "1.0.0",
+    "profile_completeness": {
+      "has_writing_samples": false,
+      "has_accomplishments": false,
+      "has_publications": false,
+      "sparse_fields": ["publications", "presentations", "accomplishments"]
+    }
+  },
+  "identity": {
+    "name": "Alex Kim",
+    "email": "alex.kim@email.com",
+    "phone": "",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "",
+      "willing_to_relocate": false,
+      "relocation_preferences": [],
+      "remote_preference": "remote"
+    },
+    "visa_status": {
+      "current_authorization": "",
+      "requires_sponsorship": false,
+      "relevant_documentation": []
+    },
+    "links": {
+      "linkedin": "",
+      "github": "",
+      "google_scholar": "",
+      "personal_site": "",
+      "other": []
+    }
+  },
+  "summary": {
+    "elevator_pitch": "",
+    "keywords": [],
+    "target_roles": []
+  },
+  "education": [
+    {
+      "id": "edu_001",
+      "degree": "BS",
+      "field": "Computer Science",
+      "institution": "State University",
+      "year_completed": "2023",
+      "honors": "",
+      "thesis_title": "",
+      "relevant_coursework": [],
+      "notes": ""
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp_001",
+      "title": "Junior Developer",
+      "organization": "TechStartup Inc",
+      "start_date": "2023-06",
+      "end_date": "present",
+      "is_current": true,
+      "contract": false,
+      "responsibilities": ["Write backend services in Python"],
+      "accomplishments": [],
+      "tools_used": ["Python"],
+      "keywords": ["backend"]
+    }
+  ],
+  "publications": [],
+  "book": {
+    "title": "",
+    "publisher": "",
+    "expected_publication": "",
+    "status": "",
+    "summary": "",
+    "key_contributions": []
+  },
+  "skills": {
+    "programming": {
+      "expert": [],
+      "proficient": ["Python"],
+      "familiar": []
+    },
+    "statistical_methods": [],
+    "domain_expertise": [],
+    "tools_and_platforms": [],
+    "soft_skills": []
+  },
+  "presentations": [],
+  "certifications": [],
+  "other": {
+    "martial_arts": "",
+    "music_background": "",
+    "languages": [],
+    "interests": []
+  },
+  "application_preferences": {
+    "salary_range": {"min": null, "max": null, "currency": "USD"},
+    "deal_breakers": [],
+    "strong_preferences": [],
+    "companies_to_avoid": [],
+    "companies_of_interest": []
+  },
+  "application_question_answers": {
+    "sponsorship_required": null,
+    "willing_to_relocate": null,
+    "salary_expectation": "",
+    "years_of_experience": "",
+    "highest_education": "",
+    "custom_answers": {}
+  }
+}
